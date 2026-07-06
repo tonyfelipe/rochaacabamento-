@@ -1,24 +1,10 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gabriel Moto Entregas | Entrega Rápida e Segura</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Gabriel Moto Entregas</h1>
-        <p>Serviço ágil de motoboy para toda a região.</p>
-    </header>
-
-    <main>
-        <section id="contato">
-            <h2>Precisa de um envio?</h2>
-            <a href="https://wa.me/SEUNUMERO" class="btn-whatsapp" target="_blank">Chamar no WhatsApp</a>
-        </section>
-    </main>
-
-    <script src="script.js"></script>
-</body>
-</html>
+// Efeito suave ao carregar a página
+document.addEventListener("DOMContentLoaded", () => {
+    const hero = document.querySelector('.hero');
+    hero.style.opacity = 0;
+    hero.style.transition = "opacity 1.5s";
+    
+    setTimeout(() => {
+        hero.style.opacity = 1;
+    }, 100);
+});
