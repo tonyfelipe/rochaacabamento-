@@ -1,24 +1,120 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MC TALYSSON  | Entrega Rápida e Segura</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ROCHA ACABAMENTOS. — PISOS REFORMAS EM GERAL</title>
+<meta name="description" content="ROCHA ACABAMENTOS, PISOS ACABAMENTOS. Gestão de contas, negociação e resultados.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>MC TALYSSON</h1>
-        <p>O MELHOR SOM DE toda a região.</p>
-    </header>
 
-    <main>
-        <section id="contato">
-            <h2>Precisa de um envio?</h2>
-            <a href="https://wa.me/SEUNUMERO" class="btn-whatsapp" target="_blank">Chamar no WhatsApp</a>
-        </section>
-    </main>
+<div class="trail" aria-hidden="true">
+  <svg width="100%" height="100%" viewBox="0 0 100 1000" preserveAspectRatio="none">
+    <path id="trailPath" d="M 8,0 C 8,120 92,140 92,260 C 92,380 8,400 8,520 C 8,640 92,660 92,780 C 92,900 8,920 8,1000" />
+  </svg>
+</div>
 
-    <script src="script.js"></script>
+<header class="nav">
+  <span class="nav__mark">PR</span>
+  <nav class="nav__links">
+    <a href="#resultados">Resultados</a>
+    <a href="#experiencia">Experiência</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#contato" class="nav__cta">CONTATO</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero" id="topo">
+    <p class="hero__eyebrow">Executiva de Vendas</p>
+    <h1 class="hero__name">ROCHA<br>ACABAMENTOS</h1>
+    <p class="hero__lede">Transformo pipeline em receita. Quinze anos fechando contas complexas,
+      liderando times comerciais e construindo relações que se traduzem em resultado no fim do mês.</p>
+    <div class="hero__actions">
+      <a href="#contato" class="btn btn--primary">Vamos conversar</a>
+      <a href="#experiencia" class="btn btn--ghost">Ver trajetória</a>
+    </div>
+  </section>
+
+  <section class="metrics" id="resultados">
+    <h2 class="section-title">Resultados que falam por si</h2>
+    <div class="metrics__grid">
+      <div class="metric-card">
+        <span class="metric-card__value" data-target="128" data-suffix="%">0%</span>
+        <span class="metric-card__label">da meta anual atingida em 2025</span>
+      </div>
+      <div class="metric-card metric-card--highlight">
+        <span class="metric-card__value" data-target="4.2" data-decimals="1" data-prefix="R$" data-suffix="M">R$0M</span>
+        <span class="metric-card__label">em novos contratos gerados</span>
+      </div>
+      <div class="metric-card">
+        <span class="metric-card__value" data-target="83" data-suffix="+">0+</span>
+        <span class="metric-card__label">contas estratégicas geridas</span>
+      </div>
+      <div class="metric-card">
+        <span class="metric-card__value" data-target="15" data-suffix=" anos">0 anos</span>
+        <span class="metric-card__label">de atuação em vendas B2B</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="experience" id="experiencia">
+    <h2 class="section-title">Trajetória</h2>
+    <ol class="timeline">
+      <li class="timeline__item">
+        <span class="timeline__year">2022 — atual</span>
+        <h3 class="timeline__role">Gerente Executiva de Vendas</h3>
+        <p class="timeline__org">Empresa Atual</p>
+        <p class="timeline__desc">Lidero um time de 8 consultores, redesenhei o funil comercial e elevei a taxa de conversão de propostas em 34%.</p>
+      </li>
+      <li class="timeline__item">
+        <span class="timeline__year">2018 — 2022</span>
+        <h3 class="timeline__role">Coordenadora Comercial</h3>
+        <p class="timeline__org">Empresa Anterior</p>
+        <p class="timeline__desc">Estruturei a carteira de contas-chave e implementei rotina de forecast que reduziu erro de previsão em 40%.</p>
+      </li>
+      <li class="timeline__item">
+        <span class="timeline__year">2011 — 2018</span>
+        <h3 class="timeline__role">Executiva de Contas</h3>
+        <p class="timeline__org">Primeira Empresa</p>
+        <p class="timeline__desc">Construí carteira do zero, alcançando três anos seguidos de superação de meta acima de 110%.</p>
+      </li>
+    </ol>
+  </section>
+
+  <section class="skills" id="habilidades">
+    <h2 class="section-title">Como eu trabalho</h2>
+    <div class="skills__grid">
+      <div class="skill"><h3>Negociação</h3><p>Condução de propostas complexas do primeiro contato ao fechamento, com foco em margem e relação de longo prazo.</p></div>
+      <div class="skill"><h3>Gestão de contas-chave</h3><p>Acompanhamento próximo de clientes estratégicos, antecipando necessidades antes que virem objeção.</p></div>
+      <div class="skill"><h3>Liderança comercial</h3><p>Times que batem meta com previsibilidade, não por sorte — rotina, dados e acompanhamento individual.</p></div>
+      <div class="skill"><h3>Forecast &amp; CRM</h3><p>Leitura de funil rigorosa para prever receita com precisão e agir a tempo nas contas em risco.</p></div>
+    </div>
+  </section>
+
+  <section class="contact" id="contato">
+    <h2 class="section-title">Vamos fechar o próximo negócio</h2>
+    <p class="contact__lede">Aberta a novas oportunidades em vendas B2B e gestão comercial.</p>
+    <div class="contact__actions">
+      <a href="rochaacabamentos@email.com" class="btn btn--primary">ROCHASACABAMENTOSs@email.com</a>Q
+    </div>
+    <div class="contact__links">
+      <a href="#" class="contact__link">LinkedIn</a>
+      <a href="tel:+5500000000000" class="contact__link">+55 (00) 00000-0000</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© <span id="year"></span>ROCHA ACABAMENTOS.</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
-</html> 
+</html>
